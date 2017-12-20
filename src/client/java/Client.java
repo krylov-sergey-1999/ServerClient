@@ -1,11 +1,12 @@
 package client.java;
 
-import java.net.*;
 import java.io.*;
+import java.net.InetAddress;
+import java.net.Socket;
 
 public class Client {
     public static void main(String[] ar) {
-        int serverPort = 6666; // здесь обязательно нужно указать порт к которому привязывается сервер.
+        int serverPort = 8080; // здесь обязательно нужно указать порт к которому привязывается сервер.
         String address = "192.168.0.48"; // это IP-адрес компьютера, где исполняется наша серверная программа.
         // Здесь указан адрес того самого компьютера где будет исполняться и клиент.
 
